@@ -6,7 +6,7 @@
   }
 }
 .button {
-  position:absolute;
+  margin-left: 350%;
   background-color: #000000;
   border: none;
   box-shadow: 0 9px#505050;
@@ -51,4 +51,13 @@
 .round {
   border-radius: 50%;
 }
-
+@media only screen and (max-width: 360px) {
+  .button {
+    margin-left: 40%;
+    border: none;
+    box-shadow: 0 9px#505050;
+    padding: 30px;
+    text-align: center;
+    font-size: 28px;
+  }
+}
